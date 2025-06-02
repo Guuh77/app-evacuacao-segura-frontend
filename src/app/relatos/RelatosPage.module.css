@@ -1,0 +1,108 @@
+.pageContainer {
+    font-family: var(--fonte-principal);
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--cor-borda);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .backLink {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+  
+  .emptyMessage {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--cor-texto-secundario);
+    margin-top: 3rem;
+  }
+  
+  .relatoList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .relatoItem {
+    margin-bottom: 1.5rem; 
+  }
+  
+  .relatoItem h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .relatoText {
+    color: var(--cor-texto-principal);
+    line-height: 1.7;
+    margin: 0.75rem 0;
+    white-space: pre-wrap;
+    font-style: italic;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 4px;
+  }
+  
+  .relatoMeta {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: var(--cor-texto-secundario);
+  }
+  
+  .relatoMeta strong {
+    color: var(--cor-texto-principal);
+  }
+  
+  .relatedInfo {
+    font-size: 0.85em;
+    color: #a0a0a0;
+    margin-top: 0.75rem;
+    padding-left: 10px;
+    border-left: 2px solid var(--cor-borda);
+  }
+  
+  .relatedInfo p {
+      margin-bottom: 0.2rem;
+  }
+  
+  .timestamp {
+    color: var(--cor-texto-secundario);
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 1rem;
+    text-align: right;
+  }
+  
+  .statusPendente {
+    color: var(--cor-alerta-aviso);
+    font-weight: bold;
+  }
+  .statusValidado {
+    color: var(--cor-alerta-sucesso);
+    font-weight: bold;
+  }
+  .statusRejeitado {
+    color: var(--cor-alerta-erro);
+    font-weight: bold;
+  }
+  .statusEmAnalise {
+    color: #29B6F6;
+    font-weight: bold;
+  }
+  .statusDefault {
+      color: var(--cor-texto-principal);
+      font-weight: bold;
+  }

@@ -1,0 +1,84 @@
+.pageContainer {
+    font-family: var(--fonte-principal);
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--cor-borda);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .backLink {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+  
+  .emptyMessage {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--cor-texto-secundario);
+    margin-top: 3rem;
+  }
+  
+  .campanhaList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .campanhaItem {
+    margin-bottom: 1.5rem; 
+  }
+  
+  .campanhaItem h2 {
+    margin-bottom: 0.75rem;
+  }
+  
+  .campanhaDetails {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    color: var(--cor-texto-principal);
+  }
+  
+  .campanhaDetails strong {
+    color: var(--cor-texto-secundario);
+  }
+  
+  .descriptionText {
+    color: var(--cor-texto-principal);
+    line-height: 1.7;
+    margin: 0.75rem 0;
+    white-space: pre-line;
+  }
+  
+  .statusAtiva {
+    color: var(--cor-alerta-sucesso);
+    font-weight: bold;
+  }
+  .statusPlanejamento {
+    color: var(--cor-alerta-aviso);
+    font-weight: bold;
+  }
+  .statusConcluida {
+    color: var(--cor-texto-secundario);
+    font-weight: bold;
+  }
+  .statusCancelada {
+    color: var(--cor-alerta-erro);
+    font-weight: bold;
+  }
+  .statusDefault {
+      color: var(--cor-texto-principal);
+      font-weight: bold;
+  }
