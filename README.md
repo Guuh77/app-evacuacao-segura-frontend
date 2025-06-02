@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aplicativo de Evacuação e Rotas Seguras - Interface Front-end 📱
 
-## Getting Started
+Bem-vindo ao repositório da Interface Front-end do nosso Aplicativo de Evacuação e Rotas Seguras! Este projeto foi construído com Next.js e TypeScript para ser a "cara" da nossa solução, oferecendo aos usuários uma forma clara e interativa de acessar informações cruciais em momentos de necessidade.
 
-First, run the development server:
+## Desenvolvedores
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Gustavo** - RM: 561055
+* **Arthur** - RM: 560820
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Sobre Esta Interface
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+No desenvolvimento desta interface, nosso principal objetivo foi criar uma experiência de usuário intuitiva e eficiente. Queremos que, mesmo sob a pressão de uma situação de emergência, qualquer pessoa consiga navegar pelas informações, entender os alertas, localizar abrigos e obter os dados necessários para sua segurança. O design foi pensado para ser limpo, responsivo e acessível.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Funcionalidades Implementadas
 
-## Learn More
+Atualmente, nossa interface permite:
 
-To learn more about Next.js, take a look at the following resources:
+* **Visualizar Dados da API:**
+    * Listagem de Alertas Atuais (`/alertas`)
+    * Listagem de Abrigos Seguros Disponíveis (`/abrigos-seguros`)
+    * Listagem de Áreas de Risco Identificadas (`/areas-de-risco`)
+    * Listagem de Ocorrências Registradas (`/ocorrencias`)
+    * Listagem de Campanhas (`/campanhas`)
+    * Listagem de Relatos de Usuários (`/relatos`)
+* **Gerenciamento Completo (CRUD) para Entidades Chave:**
+    * **Alertas:** Criar, visualizar, editar e excluir.
+    * **Abrigos Seguros:** Criar, visualizar, editar e excluir.
+    * **Áreas de Risco:** Criar, visualizar, editar e excluir.
+    * **Ocorrências:** Criar, visualizar, editar e excluir.
+    * **Relatos:** Criar, visualizar, editar e excluir.
+    * **Campanhas:** Criar e visualizar.
+* **Navegação Principal:** A partir da Home page (`/`) para todas as seções listadas.
+* **Página "Sobre a Equipe"** (`/integrantes`): Apresenta os desenvolvedores do projeto.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Next.js:** Framework React robusto para desenvolvimento de aplicações web.
+* **React:** Biblioteca JavaScript fundamental para a construção de nossas interfaces de usuário.
+* **TypeScript:** Para adicionar tipagem estática ao JavaScript, aumentando a segurança e manutenibilidade do código.
+* **Next.js App Router:** Utilizamos o novo sistema de roteamento baseado em diretórios para uma navegação otimizada e Server Components para busca inicial de dados.
+* **CSS Modules & CSS Global:** Para estilização escopada por componente e estilos base para toda a aplicação.
+* **Fetch API:** Para consumir os dados da nossa API Back-end Java Quarkus.
 
-## Deploy on Vercel
+* ## Deployment (Front-end na Nuvem)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* O deployment desta interface está planejado para a plataforma **Vercel**.
+* Quando o deploy for realizado, a variável de ambiente `NEXT_PUBLIC_API_URL` será configurada diretamente na Vercel para apontar para a URL da API back-end em produção no Railway.
+* (A URL de produção do front-end será adicionada aqui após o deploy bem-sucedido na Vercel).
