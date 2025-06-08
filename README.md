@@ -28,7 +28,7 @@ Atualmente, nossa interface permite:
     * **Áreas de Risco:** Criar, visualizar, editar e excluir.
     * **Ocorrências:** Criar, visualizar, editar e excluir.
     * **Relatos:** Criar, visualizar, editar e excluir.
-    * **Campanhas:** Criar e visualizar.
+    * **Campanhas:** visualizar.
 * **Navegação Principal:** A partir da Home page (`/`) para todas as seções listadas.
 * **Página "Sobre a Equipe"** (`/integrantes`): Apresenta os desenvolvedores do projeto.
 
