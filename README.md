@@ -11,6 +11,8 @@ Bem-vindo ao repositório da Interface Front-end do nosso Aplicativo de Evacuaç
 
 No desenvolvimento desta interface, nosso principal objetivo foi criar uma experiência de usuário intuitiva e eficiente. Queremos que, mesmo sob a pressão de uma situação de emergência, qualquer pessoa consiga navegar pelas informações, entender os alertas, localizar abrigos e obter os dados necessários para sua segurança. O design foi pensado para ser limpo, responsivo e acessível.
 
+Link do app: https://app-evacuacao-segura-frontend.vercel.app/
+
 ## Funcionalidades Implementadas
 
 Atualmente, nossa interface permite:
